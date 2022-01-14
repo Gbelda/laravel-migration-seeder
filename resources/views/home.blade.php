@@ -12,6 +12,7 @@
             <div class="row pt-3">
                 @foreach ($flights as $flight)
                     <div class="card m-3" style="width: 18rem;">
+                        <img class="card-img-top" src="{{ $flight->poster }}" alt="{{ $flight->destination }} picture">
                         <div class="card-body">
                             <h4 class="card-title">
                                 {{ $flight->destination }}
