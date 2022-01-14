@@ -1,6 +1,11 @@
 //
 @use 'bootstrap';
 
+body{
+    background-image: url(https://www.hdwallpaper.nu/wp-content/uploads/2015/07/tropical_paradise_sea_palm_beach_sunshine_hd-wallpaper-1783677.jpg);
+    background-size: cover;
+}
+
 main{
 
     width: 70%;
@@ -9,6 +14,10 @@ main{
     .title{
         text-align: center;
         padding-top: 2rem;
+    }
+
+    h1{
+        color: white;
     }
 }
 

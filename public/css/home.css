@@ -3,3 +3,23 @@ body {
   background-size: cover;
 }
 
+.overlay {
+  width: 35%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.534);
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+}
+
+.overlay h1 {
+  color: white;
+}
+
+.overlay button {
+  height: 50px;
+}
+
