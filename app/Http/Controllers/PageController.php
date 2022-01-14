@@ -7,8 +7,13 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
+
     public function index(){
+        return view('home');
+    }
+
+    public function flights(){
             $flights = Flight::all();
-            return view('home', compact('flights'));
+            return view('flights', compact('flights'));
     }
 }
