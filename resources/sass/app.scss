@@ -1,2 +1,14 @@
 //
-@use 'bootstrap'
+@use 'bootstrap';
+
+main{
+
+    width: 70%;
+    margin: auto;
+
+    .title{
+        text-align: center;
+        padding-top: 2rem;
+    }
+}
+

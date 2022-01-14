@@ -12173,3 +12173,13 @@ fieldset:disabled .btn {
   }
 }
 
+main {
+  width: 70%;
+  margin: auto;
+}
+
+main .title {
+  text-align: center;
+  padding-top: 2rem;
+}
+
