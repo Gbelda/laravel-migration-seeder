@@ -9,7 +9,7 @@
         </div>
 
         <section>
-            <div class="row pt-3">
+            <div class="row pt-3 justify-content-center">
                 @foreach ($flights as $flight)
                     <div class="card m-3" style="width: 18rem;">
                         <img class="card-img-top" src="{{ $flight->poster }}" alt="{{ $flight->destination }} picture">

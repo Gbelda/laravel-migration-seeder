@@ -1,8 +1,3 @@
-body {
-  background-image: url(https://www.hdwallpaper.nu/wp-content/uploads/2015/07/tropical_paradise_sea_palm_beach_sunshine_hd-wallpaper-1783677.jpg);
-  background-size: cover;
-}
-
 .overlay {
   width: 35%;
   margin: auto;
@@ -13,10 +8,13 @@ body {
   top: 50%;
   border-radius: 10px;
   transform: translate(-50%, -50%);
+  color: white;
 }
 
-.overlay h1 {
-  color: white;
+.overlay p {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .overlay button {

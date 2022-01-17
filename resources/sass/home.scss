@@ -10,9 +10,15 @@
     top: 50%;
     border-radius: 10px;
     transform: translate(-50%, -50%);
-    h1{
-        color:white;
+    color:white;
+
+    p{
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
     }
+
+
     button{
         height: 50px;
     }
