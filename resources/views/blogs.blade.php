@@ -10,25 +10,17 @@
 
         <section>
             <div class="row pt-3 justify-content-center">
-                @foreach ($flights as $flight)
-                    <div class="card m-3" style="width: 18rem;">
-                        <img class="card-img-top" src="{{ $flight->poster }}" alt="{{ $flight->destination }} picture">
+                @foreach ($blogs as $blog)
+                    <div class="card m-3" style="width: 50%;">
+                        <img class="card-img-top" src="{{ $blog->image }}" alt="">
                         <div class="card-body">
-                            <h4 class="card-title">
-                                {{ $flight->destination }}
-                            </h4>
-                            <h5>
-                                Airlines: {{ $flight->airline }}
-                            </h5>
-                            <h6>
-                                Flight Duration: {{ $flight->flight_duration }}
+                            <h6 class="date">
+                                {{ $blog->post_date }}
                             </h6>
-                            <div class="d-flex align-items-center justify-content-evenly">
-                                <h5 class="m-0">
-                                    Price: {{ $flight->price }}&euro;
-                                </h5>
-                                <a href="#" class="btn btn-primary">Book Now</a>
-                            </div>
+                            <h4 class="card-title">
+                                {{ $blog->title }}
+                            </h4>
+
                         </div>
                     </div>
                 @endforeach

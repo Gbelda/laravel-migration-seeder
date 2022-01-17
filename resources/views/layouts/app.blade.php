@@ -34,7 +34,7 @@
                             <a class="nav-link" href="{{ route('flights') }}">Flights</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="{{ route('blogs') }}">Blog</a>
                         </li>
                     </ul>
                 </div>
