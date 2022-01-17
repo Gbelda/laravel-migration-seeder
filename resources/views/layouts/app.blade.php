@@ -13,6 +13,8 @@
     <!-- Styles -->
     @yield('page_css')
     <link rel="stylesheet" href="/css/app.css">
+
+    <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 
 <body>
