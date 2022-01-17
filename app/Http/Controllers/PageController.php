@@ -22,4 +22,8 @@ class PageController extends Controller
             $blogs = Blog::all();
             return view('blogs', compact('blogs'));
     }
+
+    public function show(Blog $blog){
+            return view('blogs.show', compact('blog'));
+    }
 }
